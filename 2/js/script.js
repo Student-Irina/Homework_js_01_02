@@ -1,10 +1,11 @@
 
 var arrNames = [];
-var pos;
 var newName;
+var pos;
+
 for (var i = 0; i < 5; i++) {
 	pos = i + 1;
-  newName = prompt('Введите значение массива ' + pos);
+    newName = prompt('Введите значение массива ' + pos);
  	arrNames.push(newName); 
  }
 
@@ -25,7 +26,7 @@ for (var i = 0; i < 5; i++) {
   if (flag === true){
   	alert(userName + ', вы успешно вошли');
   } else {
-     alert('Такого имени нет в массиве');
+    alert('Такого имени нет в массиве');
   }
 
 
